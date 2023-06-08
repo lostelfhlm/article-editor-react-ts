@@ -1,0 +1,33 @@
+.articleTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.articleTitleContainer-selected {
+  background: #f5f8fa;
+  border-radius: 4px;
+  color: #32a8f8;
+  font-weight: 700;
+}
+
+.articleTitle {
+  padding-left: 4px;
+  font-size: 16px;
+  font-family: "NotoSansJP-Regular";
+  font-weight: 400;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+
+.button-delete-normal {
+  background-color: transparent;
+  border: none;
+}
+
+.button-delete-normal:hover {
+  background-color: #e0e0e0;
+}
+
+.button-delete-normal:active {
+  background-color: #bdbdbd;
+}

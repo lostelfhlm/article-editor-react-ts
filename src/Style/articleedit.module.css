@@ -1,0 +1,120 @@
+.title-edit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body-edit {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.article-edit {
+  height: calc(100% - 120px);
+  background-color: #f5f8fa;
+  border-radius: 16px;
+  margin: 30px 40px;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+
+.article-title {
+  border: none;
+  width: calc(100% - 190px);
+  border-radius: 8px;
+  font-family: "NotoSansJP-Bold";
+  font-size: 24px;
+  color: #333333;
+  letter-spacing: 0;
+  margin-left: 30px;
+  margin-right: 20px;
+  line-height: 40px;
+  font-weight: 700;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.article-body {
+  width: calc(100% - 190px);
+  height: 100vh;
+  max-height: calc(100vh - 290px);
+  margin: 0px 20px 30px 30px;
+  padding: 30px;
+  font-family: "NotoSansJP-Regular";
+  font-size: 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  overflow: auto;
+  border: none;
+  resize: none;
+}
+
+.article-textarea {
+  width: calc(100% - 190px);
+  height: 100vh;
+  max-height: calc(100vh - 290px);
+  margin: 0px 20px 30px 30px;
+  padding: 30px;
+  font-family: "NotoSansJP-Regular";
+  font-size: 16px;
+  background: #ffffff;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  overflow: auto;
+  border: none;
+  resize: none;
+}
+.article-textarea:focus,
+.article-title:focus {
+  outline: none;
+  box-shadow: 0 0 0 1px #4cb3f8;
+  border-radius: 8px;
+}
+.article-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.article-body::-webkit-scrollbar-track {
+  background: #f5f8fa;
+}
+
+.article-body::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 4px;
+}
+
+.article-body::-webkit-scrollbar-thumb:hover {
+  background: #a6a6a6;
+}
+
+.article-textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+.article-textarea::-webkit-scrollbar-track {
+  background: #f5f8fa;
+}
+
+.article-textarea::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-radius: 4px;
+}
+
+.article-textarea::-webkit-scrollbar-thumb:hover {
+  background: #a6a6a6;
+}
+
+.title-edit-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+}
+
+.body-edit-button {
+  display: flex;
+  justify-content: space-between;
+  width: 90px;
+}

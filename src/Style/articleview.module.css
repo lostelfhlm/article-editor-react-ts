@@ -1,0 +1,92 @@
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.articleView {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-left: 40px;
+  height: 100vh;
+  position: relative;
+}
+
+.sidebar {
+  border-right: 1px solid #f6f8fa;
+  position: relative;
+}
+
+.articleEdit {
+  height: 100%;
+  position: relative;
+}
+
+.articleList {
+  padding-left: 4px;
+  max-height: 85vh;
+  overflow: auto;
+}
+
+.titleHeader {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.titleFooter {
+  background-color: #f6f8fa;
+  padding: 5px 10px 20px 10px;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.buttonEdit {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  padding-right: 70px;
+}
+
+.buttonEdit :hover {
+  background-color: #3c8ec4;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.serviceName {
+  padding-left: 5px;
+  font-size: 24px;
+  color: #1a1a1a;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-weight: 700;
+}
+.copyRight {
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+  font-family: "NotoSansJP-Regular";
+  font-size: 12px;
+  color: #333333;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.companyInfo {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  font-family: "NotoSansJP-Regular";
+  font-size: 12px;
+  color: #333333;
+  letter-spacing: 0;
+  font-weight: 400;
+}

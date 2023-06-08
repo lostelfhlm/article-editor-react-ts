@@ -18,16 +18,26 @@ When working on a TypeScript project, using @typescript-eslint/parser is benefit
 it could improves code quality, reduces errors, and enhances the development experience when working with Axios in a TypeScript project.
 
 2. Structure
-src
+
+react-ts
+
+     src
+
     assets              ... Store images and icon
         icon
+        
     Component           ... Components of pages
         Article
         Common
+        
     Controller          ... The controller component contains logic and  the flow of data between the model and the view.
+    
     Model               ... Managing the application's state and data, such as api.
+    
     Page                ... Display pages with multiple view, if there are other pages exist, Rect Router is needed.
+    
     Style               ... The css style of each component.
+    
     View                ... Displaying the data to the user and handling user interactions.
 
 

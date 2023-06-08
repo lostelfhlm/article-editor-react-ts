@@ -2,7 +2,7 @@
 
 ### 
 
-![screenshot](/article-editor-react-ts/public/screenshot.png)
+![screenshot](/public/screenshot.png)
 
 - [About](#about)
 - [How To Run Locally](#how-to-run-locally)

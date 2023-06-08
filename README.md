@@ -12,8 +12,10 @@ This is a articleEditor web application used with React and TypeScript.
 It can edit article title ,body and get,add, update, delete article from backend api.
 
 1. Using packages:
+
 @typescript-eslint/parser
 When working on a TypeScript project, using @typescript-eslint/parser is benefit from the TypeScript type checking and analysis capabilities while linting  code. 
+
 @types/axios
 it could improves code quality, reduces errors, and enhances the development experience when working with Axios in a TypeScript project.
 
